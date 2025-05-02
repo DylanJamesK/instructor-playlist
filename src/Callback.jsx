@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const clientId = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
-const redirectUri ='https://instructorplaylist.netlify.app/callback';
+const redirectUri ='https://instructorplaylist.netlify.app';
 
 function Callback() {
   const navigate = useNavigate();
