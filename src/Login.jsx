@@ -4,8 +4,8 @@ import FloatingCirclesBackground from './FloatingCirclesBackground';
 import SpotifyLogo from './SpotifyLogo';
 import { ScanSearch, AudioLines, LibraryBig } from "lucide-react";
 
-const clientId = '10f7564f84174ac29e86c42b0561b3e1';
-const redirectUri = 'http://127.0.0.1:5173/callback';
+const clientId =VITE_SPOTIFY_CLIENT_ID;
+const redirectUri ="https://instructorplaylist.netlify.app/callback";
 const scope = 'playlist-read-private playlist-modify-private playlist-modify-public user-library-read user-top-read streaming user-read-email user-read-private user-modify-playback-state';
 
 function Login() {
