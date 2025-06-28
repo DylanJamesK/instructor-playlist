@@ -5,7 +5,6 @@ import axios from 'axios';
 import PlaylistPanel from './PlaylistPanel';
 import SpotifyDebugPanel from './SpotifyDebugPanel';
 import SpotifyLogoWhite from './SpotifyLogoWhite';
-import FloatingCirclesBackground from './FloatingCirclesBackground';
 
 function Dashboard() {
   const navigate = useNavigate();
@@ -71,7 +70,6 @@ function Dashboard() {
 
   return (
     <>
-    <FloatingCirclesBackground/>
     <div className="min-h-screen">
       {/* Header */}
       <header className="bg-black text-white p-4">

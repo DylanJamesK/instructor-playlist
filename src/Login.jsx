@@ -1,6 +1,5 @@
 import { generateCodeChallenge, generateCodeVerifier } from './auth/pkceUtils';
 import DKLogo from './DKLogo';
-import FloatingCirclesBackground from './FloatingCirclesBackground';
 import SpotifyLogo from './SpotifyLogo';
 import { ScanSearch, AudioLines, LibraryBig } from "lucide-react";
 
@@ -28,9 +27,7 @@ function Login() {
   };
 
   return (
-    <>
-      <FloatingCirclesBackground />
-      
+    <>      
       {/* Fixed-positioned logos */}
       <div className="absolute top-0 left-0 z-10">
         <SpotifyLogo />
